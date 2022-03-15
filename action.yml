@@ -1,11 +1,7 @@
 name: "gogithub" 
 description: "gogithub example"
 
-runs:
-  using: composite 
-  steps:
-  - run: go run hello.go
-  shell: bash
+
 runs:  
   using: composite 
   steps:
