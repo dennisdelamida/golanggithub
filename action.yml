@@ -6,5 +6,8 @@ runs:
   steps:
   - run: go run hello.go
   shell: bash
+runs:  
+  using: composite 
+  steps:
   - run: go run hellorepo1.go
   shell: bash
