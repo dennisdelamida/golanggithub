@@ -22,5 +22,5 @@ jobs:
       uses: actions/checkout@v2
 
    
-    - name: goexample
-      uses: AdminTurnedDevOps/goexample@v1
+    - name: hello
+      uses: AdminTurnedDevOps/hello@v1
