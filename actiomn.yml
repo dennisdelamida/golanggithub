@@ -1,0 +1,8 @@
+name: "gogithub" 
+description: "gogithub example"
+
+run:
+  using: composite 
+  steps:
+   -run: go run goexample.go
+    shell: bash
