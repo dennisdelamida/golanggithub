@@ -5,5 +5,5 @@ description: "gogithub example"
 runs:  
   using: composite 
   steps:
-  - run: go run hellorepo1.go
+  - run: go run  ${{ github.action_path }}/hellorepo1.go
     shell: bash
