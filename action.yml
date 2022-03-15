@@ -6,4 +6,4 @@ runs:
   using: composite 
   steps:
   - run: go run hellorepo1.go
-  shell: bash
+    shell: bash
