@@ -23,4 +23,4 @@ jobs:
 
    
     - name: go example
-      uses: AdminTurnedDevOps/goexample@v4
+      uses: dennisdelamida/golanggithub@v4
