@@ -16,6 +16,6 @@ runs:
   steps:
   - run: go run  ${{ github.action_path }}/hellorepo1.go
     shell: bash
-  - run: go run  ${{ github.action_path }}/hellorepo2.go ${{ inputs.files }}  ${{ inputs.files }}  ${{ inputs.files }}
+  - run: go run  ${{ github.action_path }}/hellorepo2.go ${{ inputs.version }}  ${{ inputs.version }}  ${{ inputs.version }}
     shell: bash
 
