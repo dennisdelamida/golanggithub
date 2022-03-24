@@ -17,7 +17,7 @@ runs:
   - run: go run  ${{ github.action_path }}/hellorepo1.go
     shell: bash
     
-    runs:  
+ 
   using: composite 
   steps:
   - run: go run  ${{ github.action_path }}/hellorepo2.go  ${{ inputs.files }} ${{ inputs.files }}
