@@ -15,11 +15,6 @@ runs:
   using: composite 
   steps:
   - run: go run  ${{ github.action_path }}/hellorepo1.go
-    shell: bash
-    
- 
-  using: composite 
-  steps:
   - run: go run  ${{ github.action_path }}/hellorepo2.go  ${{ inputs.files }} ${{ inputs.files }}
     shell: bash
 
